@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".SignInActivity">
+
+    <EditText
+        style="@style/EditText"
+        android:id="@+id/editTextName"
+        android:inputType="textPersonName"
+        android:hint="Name"
+        />
+
+    <EditText
+        style="@style/EditText"
+        android:id="@+id/editTextLastName"
+        android:inputType="textPersonName"
+        android:hint="Lastname" />
+
+    <EditText
+        android:id="@+id/editTextType"
+        style="@style/EditText"
+        android:inputType="textPersonName"
+        android:hint="Male/Female" />
+
+    <EditText
+        android:id="@+id/editTextAge"
+        style="@style/EditText"
+        android:inputType="textPersonName"
+        android:hint="Age" />
+
+    <Button
+        android:id="@+id/buttonSignIn"
+        android:layout_width="match_parent"
+        android:layout_margin="18dp"
+        android:layout_height="wrap_content"
+        android:text="Sign in" />
+
+</LinearLayout>
